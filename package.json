@@ -1,0 +1,33 @@
+{
+  "name": "backendlivraria",
+  "version": "1.0.0",
+  "description": "Projeto de backend completo para gerenciamento de uma livraria, utilizando Node.js, Express e MariaDB.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheuskii/Trabalho-BiblioTecAPI.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mariadb",
+    "livraria"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matheuskii/Trabalho-BiblioTecAPI/issues"
+  },
+  "homepage": "https://github.com/Matheuskii/Trabalho-BiblioTecAPI#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7"
+  }
+}
